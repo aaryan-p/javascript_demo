@@ -7,7 +7,7 @@ async function example(){
     
     let driver = await new Builder().forBrowser("firefox").build();
 
-     
+     //get is used to call google through url
      await driver.get("http://google.com");
      
      
